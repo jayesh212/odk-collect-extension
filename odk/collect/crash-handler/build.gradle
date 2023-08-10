@@ -55,3 +55,4 @@ dependencies {
     testImplementation packages.androidx_test_ext_junit
     testImplementation packages.robolectric
 }
+apply from: '../../../scripts/publish-module.gradle'

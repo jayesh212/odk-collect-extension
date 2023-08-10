@@ -41,3 +41,4 @@ dependencies {
         exclude group: 'androidx.test', module: 'monitor' //fixes issue https://github.com/android/android-test/issues/731
     }
 }
+apply from: '../../../scripts/publish-module.gradle'

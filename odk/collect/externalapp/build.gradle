@@ -50,3 +50,4 @@ dependencies {
     testImplementation packages.robolectric
     testImplementation packages.mockito_kotlin
 }
+apply from: '../../../scripts/publish-module.gradle'

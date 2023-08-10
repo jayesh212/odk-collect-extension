@@ -1,6 +1,5 @@
 plugins {
     id 'com.android.library'
-    id 'maven-publish'
 }
 apply plugin: 'kotlin-android'
 
@@ -41,12 +40,4 @@ dependencies {
 repositories {
     mavenCentral()
 }
-afterEvaluate {
-    publishing {
-        publications{
-            release(MavenPublication){
-                from components.release
-            }
-        }
-    }
-}
+apply from: '../../../scripts/publish-module.gradle'

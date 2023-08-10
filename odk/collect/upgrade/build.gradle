@@ -50,3 +50,4 @@ dependencies {
     testImplementation packages.junit
     testImplementation packages.hamcrest
 }
+apply from: '../../../scripts/publish-module.gradle'

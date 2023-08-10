@@ -62,3 +62,4 @@ dependencies {
     testImplementation packages.mockito_core
     testImplementation packages.hamcrest
 }
+apply from: '../../../scripts/publish-module.gradle'

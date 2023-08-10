@@ -14,3 +14,4 @@ java {
 dependencies {
     implementation packages.kotlin_stdlib
 }
+apply from: '../../../scripts/publish-module.gradle'

@@ -21,3 +21,4 @@ android {
     }
     namespace 'org.odk.collect.nbistubs'
 }
+apply from: '../../../scripts/publish-module.gradle'

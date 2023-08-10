@@ -59,3 +59,4 @@ dependencies {
     testImplementation packages.androidx_test_ext_junit
     testImplementation packages.androidx_test_espresso_core
 }
+apply from: '../../../scripts/publish-module.gradle'

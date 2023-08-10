@@ -33,3 +33,4 @@ android {
 dependencies {
     implementation packages.android_material
 }
+apply from: '../../../scripts/publish-module.gradle'

@@ -38,3 +38,4 @@ dependencies {
     implementation packages.caverock_androidsvg
     kapt packages.glide_compiler
 }
+apply from: '../../../scripts/publish-module.gradle'

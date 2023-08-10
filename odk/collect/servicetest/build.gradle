@@ -35,3 +35,4 @@ dependencies {
     implementation packages.robolectric
 }
 
+apply from: '../../../scripts/publish-module.gradle'

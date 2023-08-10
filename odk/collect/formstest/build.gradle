@@ -20,3 +20,4 @@ dependencies {
     implementation packages.mockito_core
     implementation packages.hamcrest
 }
+apply from: '../../../scripts/publish-module.gradle'

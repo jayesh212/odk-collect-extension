@@ -39,3 +39,4 @@ dependencies {
     implementation packages.firebase_analytics
     implementation packages.firebase_crashlytics
 }
+apply from: '../../../scripts/publish-module.gradle'

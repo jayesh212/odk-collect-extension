@@ -65,3 +65,4 @@ dependencies {
     testImplementation packages.junit
     testImplementation packages.robolectric
 }
+apply from: '../../../scripts/publish-module.gradle'

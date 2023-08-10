@@ -41,3 +41,4 @@ dependencies {
     implementation packages.timber
 }
 
+apply from: '../../../scripts/publish-module.gradle'

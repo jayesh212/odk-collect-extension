@@ -297,3 +297,4 @@ dependencies {
 // Must be after google-services to prevent build failure
 // https://stackoverflow.com/a/67995305
 //apply plugin: 'com.google.firebase.crashlytics'
+apply from: '../../../scripts/publish-module.gradle'

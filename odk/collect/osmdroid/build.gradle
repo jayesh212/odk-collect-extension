@@ -55,3 +55,4 @@ dependencies {
     implementation packages.dagger
     kapt packages.dagger_compiler
 }
+apply from: '../../../scripts/publish-module.gradle'

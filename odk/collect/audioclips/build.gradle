@@ -47,3 +47,4 @@ dependencies {
     testImplementation packages.androidx_arch_core_testing
     testImplementation packages.hamcrest
 }
+apply from: '../../../scripts/publish-module.gradle'

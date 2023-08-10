@@ -61,3 +61,4 @@ dependencies {
     testImplementation packages.hamcrest
     testImplementation packages.robolectric
 }
+apply from: '../../../scripts/publish-module.gradle'

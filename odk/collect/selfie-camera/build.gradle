@@ -66,3 +66,4 @@ dependencies {
     testImplementation packages.hamcrest
     testImplementation packages.androidx_test_espresso_core
 }
+apply from: '../../../scripts/publish-module.gradle'

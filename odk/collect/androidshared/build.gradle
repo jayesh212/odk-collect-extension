@@ -70,3 +70,4 @@ dependencies {
 
     debugImplementation project(':odk:collect:fragmentstest')
 }
+apply from: '../../../scripts/publish-module.gradle'

@@ -80,3 +80,4 @@ dependencies {
     testImplementation packages.androidx_test_espresso_core
     testImplementation packages.androidx_arch_core_testing
 }
+apply from: '../../../scripts/publish-module.gradle'

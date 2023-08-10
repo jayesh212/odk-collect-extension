@@ -46,3 +46,4 @@ dependencies {
     testImplementation packages.androidx_work_testing
     testImplementation packages.mockito_kotlin
 }
+apply from: '../../../scripts/publish-module.gradle'
