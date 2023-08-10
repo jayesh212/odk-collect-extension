@@ -44,7 +44,6 @@ android {
 
     namespace 'org.odk.collect.settings'
 }
-
 dependencies {
     implementation project(':odk:collect:shared')
     implementation project(':odk:collect:projects')
