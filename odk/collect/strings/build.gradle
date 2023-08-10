@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.library'
+    id 'maven-publish'
 }
 apply plugin: 'kotlin-android'
 
@@ -39,4 +40,16 @@ dependencies {
 }
 repositories {
     mavenCentral()
+}
+afterEvaluate {
+    publishing {
+        publications{
+            release(MavenPublication){
+                from components.release
+                groupId = 'io.samagra.odk.collect'
+                artifactId = 'strings'
+                version = '0.0.1'
+            }
+        }
+    }
 }
