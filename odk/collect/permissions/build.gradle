@@ -52,7 +52,7 @@ dependencies {
 
     testImplementation project(':odk:collect:androidtest')
     testImplementation project(':odk:collect:testshared')
-    testImplementation project(':odk:collect:fragmentstest')
+//    testImplementation project(':odk:collect:fragmentstest')
     testImplementation project(':odk:collect:strings')
 
     testImplementation packages.androidx_test_ext_junit

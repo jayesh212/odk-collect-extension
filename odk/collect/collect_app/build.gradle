@@ -280,7 +280,7 @@ dependencies {
     androidTestImplementation packages.androidx_work_testing
     androidTestImplementation packages.uiautomator
 
-    testImplementation project(path: ':odk:collect:fragmentstest')
+//    testImplementation project(path: ':odk:collect:fragmentstest')
     testImplementation(project(path: ':odk:collect:testshared')) {
         exclude group: 'org.robolectric'
         // Some tests in `collect_app` don't work with newer Robolectric

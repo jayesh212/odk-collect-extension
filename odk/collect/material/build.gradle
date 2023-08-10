@@ -47,7 +47,7 @@ dependencies {
     implementation project(':odk:collect:androidshared')
     implementation project(':odk:collect:strings')
 
-    debugImplementation project(':odk:collect:fragmentstest')
+//    debugImplementation project(':odk:collect:fragmentstest')
 
     testImplementation project(':odk:collect:testshared')
 

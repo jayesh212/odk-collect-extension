@@ -69,7 +69,7 @@ dependencies {
     implementation project(path: ':odk:collect:maps')
     implementation project(path: ':odk:collect:material')
 
-    debugImplementation project(path: ':odk:collect:fragmentstest')
+//    debugImplementation project(path: ':odk:collect:fragmentstest')
     testImplementation project(path: ':odk:collect:androidtest')
     testImplementation project(path: ':odk:collect:testshared')
     testImplementation packages.junit

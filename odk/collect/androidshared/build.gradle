@@ -68,6 +68,6 @@ dependencies {
     testImplementation packages.robolectric
     testImplementation packages.mockito_kotlin
 
-    debugImplementation project(':odk:collect:fragmentstest')
+//    debugImplementation project(':odk:collect:fragmentstest')
 }
 apply from: '../../../scripts/publish-module.gradle'
